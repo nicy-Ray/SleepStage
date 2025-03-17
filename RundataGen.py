@@ -1,5 +1,7 @@
 import numpy as np
-from DataGenerator import kFoldGenerator, DominGenerator
+# from DataGenerator import kFoldGenerator, DominGenerator
+from isrucutitls.DataGenerator import kFoldGenerator, DominGenerator
+
 
 # 设置参数
 batch_size = 128    # 论文中设置的 batch_size
