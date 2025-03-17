@@ -7,7 +7,8 @@ window_size = 5     # 2T+1，T=2
 
 # 加载数据
 # 假设 npz 文件中包含 'x' 和 'y' 两个数组，请根据实际情况修改 key 名称
-data = np.load('ISRUC_S3_all.npz')
+# data/ISRUC_S1_processed.npy
+data = np.load('data/ISRUC_S3/ISRUC_S3_all.npz')
 x = data['x']
 y = data['y']
 
