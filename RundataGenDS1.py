@@ -1,5 +1,6 @@
 import numpy as np
-from DataGenerator import kFoldGenerator, DominGenerator
+# from DataGenerator import kFoldGenerator, DominGenerator
+from isrucutitls.DataGenerator import kFoldGenerator, DominGenerator
 
 # 加载数据
 data = np.load("ISRUC_S3_all.npz")
