@@ -3,7 +3,7 @@ import numpy as np
 from isrucutitls.DataGenerator import kFoldGenerator, DominGenerator
 
 # 加载数据
-data = np.load("ISRUC_S3_all.npz")
+data = np.load("ISRUC_S3_all.npy")
 fold_data = data["Fold_data"]   # 形状假设: (k_folds, num_samples, features)
 fold_label = data["Fold_label"] # 形状假设: (k_folds, num_samples, num_classes)
 fold_len = data["Fold_len"]     # 每个 fold 的原始序列长度 (可能用于窗口生成)
